@@ -1,0 +1,29 @@
+﻿# Secrets
+.env
+.env.*
+!.env.example
+odoo.conf
+
+# Database and persistent data
+/postgres/
+/data/
+/backups/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
